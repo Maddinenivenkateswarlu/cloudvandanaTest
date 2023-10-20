@@ -1,0 +1,23 @@
+.outer_structure{
+    top:10%;
+    left: 30%;
+    position:absolute;
+    border: 2px solid black;
+    max-width: 100%;
+    height: auto;
+    padding:5%;
+}
+.row1, .row2, .row3, .row4, .display{
+    margin-bottom: 5px;
+}
+button{
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+}
+input{
+    left: 2px;
+}

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <title>calculator</title>
+<script src="calculatorjs.js"></script>
+<link rel="stylesheet" type="text/css" href="calculatorcss.css">
+</head>
+
+<body>
+  <div class="outer_structure">
+    <div class="display">
+      <input type="text" id="data"  style="text-align: right;">
+    </div>
+    <section>
+      <div class="row1">
+        <button (click)="number(1)">1</button>
+        <button (click)="number(2)">2</button>
+        <button (click)="number(3)">3</button>
+        <button  (click)="clear()">AC</button>
+      </div>
+      <div class="row2">
+        <button (click)="number(4)">4</button>
+        <button (click)="number(5)">5</button>
+        <button (click)="number(6)">6</button>
+        <button (click)="operation('/')">/</button>
+      </div>
+      <div class="row3">
+        <button (click)="number(7)">7</button>
+        <button (click)="number(8)">8</button>
+        <button (click)="number(9)">9</button>
+        <button (click)="operation('*')">*</button>
+      </div>
+      <div class="row4">
+        <button (click)="operation('+')">+</button>
+        <button (click)="number(0)">0</button>
+        <button (click)="operation('-')">-</button>
+        <button  (click)="calculate()">=</button>
+      </div>
+    </section>
+
+  </div>
+</body>
+
+</html>
